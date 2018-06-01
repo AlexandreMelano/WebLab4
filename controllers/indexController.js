@@ -1,7 +1,8 @@
 exports.homePage = (req, res, next) => {
     res.render('index', 
-      { title: 'Lesson4',
-       
+      { title: 'Lab4',
+      message: 'hello world',
+        
       });
   };
   
