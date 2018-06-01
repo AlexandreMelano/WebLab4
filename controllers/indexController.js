@@ -20,7 +20,7 @@ exports.alex= (req, res, next) => {
    
 exports.erick= (req, res, next) => {
     //calculate some random number
-    const description = 'Alex is a computer programmer'
+    const description = 'Erick likes to work outside'
 
     //display it on a page along with number
   res.render('erick', 
@@ -31,7 +31,7 @@ exports.erick= (req, res, next) => {
  
 exports.kee= (req, res, next) => {
     //calculate some random number
-    const description = 'Alex is a computer programmer'
+    const description = 'kee is friggin awesome'
 
     //display it on a page along with number
   res.render('kee', 
@@ -43,7 +43,7 @@ exports.kee= (req, res, next) => {
  
 exports.deanna= (req, res, next) => {
     //calculate some random number
-    const description = 'Alex is a computer programmer'
+    const description = 'Love mom!'
 
     //display it on a page along with number
   res.render('deanna', 
